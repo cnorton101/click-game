@@ -1,6 +1,5 @@
 import React from "react";
 import "./Clickables.css";
-
 const Clickables = props => (
   <div className="characterBox" onClick={() => props.handleClick(props.id)}>
     <img 
