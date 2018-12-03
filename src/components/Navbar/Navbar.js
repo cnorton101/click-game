@@ -1,5 +1,4 @@
 import React from "react";
-import whitelogo from "./clickygamewhite.png"
 import "./Navbar.css";
 
 const Navbar = props => (
