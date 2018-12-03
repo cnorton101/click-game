@@ -1,0 +1,60 @@
+#header {
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to right, #e480d8 , #9df0ff);
+}
+
+#instructions {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 150px;
+    font-size: 25px;
+}
+
+.headerSection {
+    width: 33%;
+    display: inline-block;
+}
+
+#headerLeft {
+    float: left;
+}
+
+#headerMiddle {
+    text-align: center;
+}
+
+#headerRight {
+    float: right;
+}
+
+#llama {
+    height: 200px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+#llama2 {
+    height: 200px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 5%;
+    transform: scaleX(-1);
+}
+
+@media (max-width: 500px) {
+    #llama {
+        height: 100px;
+    }
+
+    #llama2 {
+        height: 100px;
+    }
+
+    #instructions {
+        font-size: 18px;
+    }
+  }
+  

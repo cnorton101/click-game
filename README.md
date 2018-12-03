@@ -1,1 +1,1 @@
-# click-game
+This is a memory game made with React and Bootstrap. Key features include; breaking up the application's UI into components, managing component state, and responding to user events.
